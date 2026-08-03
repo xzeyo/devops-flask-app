@@ -3,6 +3,7 @@ app = Flask(__name__)
 @app.route("/")
    
 def hello():
+    print("Test Path Called")
     return "Hello World!"
 
 
